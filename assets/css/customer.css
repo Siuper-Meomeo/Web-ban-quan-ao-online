@@ -1,0 +1,103 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100vh;
+    background-color: #f8bbd0;
+    padding-top: 30px;
+    color: #333;
+    box-shadow: 4px 0 12px rgba(0, 0, 0, 0.05);
+    border-right: 1px solid #eee;
+    z-index: 1000;
+  }
+
+  .sidebar img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .sidebar .nav-link {
+    color: var(--primary-dark);
+    font-weight: 500;
+  }
+
+  .sidebar .nav-link.active {
+    font-weight: bold;
+    background-color: var(--primary-light);
+    border-radius: 8px;
+  }
+
+  .content {
+    margin-left: 25%;
+    padding: 40px 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
+  }
+
+  .username {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--text-color);
+  }
+
+  .info-text {
+    font-size: 1rem;
+    color: #555;
+  }
+
+  .menu-box {
+    background-color: var(--primary-light);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+  }
+
+  .menu-item {
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+    background-color: #ff91b6;
+  }
+
+  .menu-item:hover {
+    background-color: #f8709d;
+    color: #880e4f;
+  }
+      .text-pink {
+      color: #ec4899;
+    }
+
+    .bg-pink-light {
+      background-color: #ffe4ec;
+    }
+
+    .border-pink {
+      border-left: 5px solid #ec4899 !important;
+    }
+
+    .voucher-box {
+      background-color: #ffe4ec;
+      border-radius: 10px;
+      padding: 20px;
+      border-left: 5px solid #ec4899;
+    }
+
+    .col-md-6::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    .col-md-6::-webkit-scrollbar-thumb {
+      background-color: #ec4899;
+      border-radius: 10px;
+    }
+
+    .col-md-6::-webkit-scrollbar-track {
+      background-color: #ffe4ec;
+    }

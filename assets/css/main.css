@@ -1,0 +1,73 @@
+:root {
+    --primary-light: #ffe6ec;
+    --primary-dark: #ff8fb1;
+    --text-color:  #d63384;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: var(--text-color);
+}
+
+.feature-box:hover,
+.room-card:hover,
+.step-box:hover,
+.review-box:hover,
+.contact-box:hover,
+.outfit-card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+    border: 2px solid var(--primary-dark);
+}
+
+footer {
+    background-color: var(--text-color);
+    padding: 40px 0;
+}
+
+.btn-pink {
+    background-color: var(--primary-dark);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-pink:hover {
+    background-color: #ec407a;
+    color: white;
+    box-shadow: 0 0 10px rgba(236, 64, 122, 0.5);
+}
+
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.contact-box i {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin-right: 10px;
+}
+
+.text-pink {
+    color: var(--text-color) !important;
+    /* Màu hồng đậm */
+    font-weight: bold;
+    font-size: large;
+}
